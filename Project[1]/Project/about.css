@@ -1,0 +1,115 @@
+* {
+    box-sizing:content-box;
+  }
+  
+  body {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    padding-left: 10px;
+  }
+  
+  .container{
+    display: flex;
+    align-self: center;
+    margin: 5%;
+    border-radius: 2rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+    position: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .card{
+    height: 500px;
+    width: 300px;
+    min-width: 300px;
+    padding: 50px 45px;
+    position: static;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  #card-1 {
+    float: left;
+    border-radius: 30px;
+    background-color: hsl(293, 93%, 44%);
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  #card-2 {
+    float: left;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: hsl(293, 93%, 44%);
+    position: static;
+  }
+  
+  #card-3 {
+    float: right;
+    border-radius: 30px;
+    background-color: hsl(293, 100%, 44%);
+  }
+  main .card h1 {
+    color: hsl(286, 98%, 16%); 
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+  }
+  main .card p {
+    color: hsl(281, 96%, 19%);
+    font-size: 15px;
+    line-height: 1.75;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+  }
+  
+  
+  .social a{
+    font-size: 30px;
+    color: #53005a;
+    margin-right: 20px;
+    position:sticky;
+  
+  }
+  
+  .social a:hover{
+    color: hsl(249, 92%, 33%);
+  }
+#myphoto{
+    width: 220px;
+    height: 300px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+#abtalha{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px ;
+}
+#abithapho{
+    width: 220px;
+    height: 300px;
+    border-radius: 50px;
+    margin-left: 35px;
+}
+#akshaypho{
+    width: 220px;
+    height: 300px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+#akshayabo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+#abithaquo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+
+}
